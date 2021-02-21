@@ -17,9 +17,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GbP-z9-r75">
-                                <rect key="frame" x="129" y="111" width="156" height="119"/>
+                                <rect key="frame" x="0.0" y="111" width="407" height="218"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -30,11 +30,11 @@
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="buttonLabel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PZ5-W9-OY1"/>
-                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4dd-6J-PJu"/>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cJw-kD-Psb"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MOD-AA-hbF">
-                                <rect key="frame" x="166" y="391" width="83" height="42"/>
+                                <rect key="frame" x="66" y="391" width="295" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <nil key="textColor"/>
@@ -46,12 +46,13 @@
                     </view>
                     <connections>
                         <outlet property="bottomLabel" destination="MOD-AA-hbF" id="xgw-1K-YKv"/>
-                        <outlet property="topLabel" destination="GbP-z9-r75" id="EnL-eK-AGG"/>
+                        <outlet property="buttonLabel" destination="uIG-xo-u5y" id="h4w-k4-VMg"/>
+                        <outlet property="topLabel" destination="GbP-z9-r75" id="HxD-lU-kFq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-851" y="-131"/>
+            <point key="canvasLocation" x="-852.17391304347836" y="-131.25"/>
         </scene>
     </scenes>
     <resources>
