@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         topLabel.text = "My Favorite Foods"
-        //set bottomLabel to display the item at "currentIndex" upon launch of app
+        //set bottomLabel to display the item at "currentIndex" upon launch of app when it first opens
         //bottom label will display the array in the order it it is listed 
         bottomLabel.text=favoriteFoodsArray[currentIndex]   }
 
@@ -36,7 +36,7 @@ class ViewController: UIViewController {
     //Pressing the button will allow you to go through the array
     @IBAction func buttonPressed(_ sender: Any) {
     
-        if self.currentIndex < self.favoriteFoodsArray.count {
+        if currentIndex < self.favoriteFoodsArray.count {
         //you could also put the integer (if self.currentIndex < 5)
             
         //set bottomLabeltext to item in the array at currentIndex
@@ -50,6 +50,7 @@ class ViewController: UIViewController {
      else
     {
     //Once all the items have been displayed in the array it will be button will be disable
+    //Good luck I hope this works 
     print("Button has been disabled")
         (buttonLabel!).isEnabled=false
         
