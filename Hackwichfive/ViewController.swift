@@ -42,6 +42,7 @@ class ViewController: UIViewController {
         //set bottomLabeltext to item in the array at currentIndex
          bottomLabel.text = favoriteFoodsArray[currentIndex]
             //set the title of the button to "Next"
+            //When button is pressed the next item in the array will be shown
             buttonLabel.setTitle ("Next", for: UIControl.State.normal)
             currentIndex+=1
             
